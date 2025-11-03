@@ -3,8 +3,8 @@
 number1=$1
 number2=$2
 
-Timestamp=$(date)
+timestamp=$(date)
 echo "scripted executed at : $timestamp"
-sum=$((number1+number2))
+SUM=$((number1+number2))
 
 echo "sum of $number1 and $number2 is :$SUM"
